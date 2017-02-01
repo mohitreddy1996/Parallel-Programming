@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohit/Parallel-Programming-/PI_Value_Calculation/compute_PI.cpp
+compute_PI.h
+/home/mohit/Parallel-Programming-/PI_Value_Calculation/compute_PI.h
+
+/home/mohit/Parallel-Programming-/PI_Value_Calculation/compute_PI.h
+cstdlib
+-
+iostream
+-
+iomanip
+-
+cstring
+-
+omp.h
+-
+

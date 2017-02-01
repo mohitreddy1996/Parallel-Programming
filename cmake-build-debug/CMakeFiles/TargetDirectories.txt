@@ -1,0 +1,3 @@
+/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/Parallel.dir

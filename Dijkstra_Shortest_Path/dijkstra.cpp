@@ -43,10 +43,33 @@ void print_distance_matrix(int weights[VERTEX][VERTEX]){
     return;
 }
 
-int *dijkstra_distance(int weights[VERTEX][VERTEX]){
-    /**
-     * Implement multi threaded Dijkstra.
-     * */
+
+
+void find_nearest(int s, int e, int min_dist[VERTEX], bool connected[VERTEX], int *d, int *v){
+    *d = INF;
+    *v = -1;
+    for(int i=s; i<=e; i++){
+        if (!connected[i] && min_dist[i] < *d) {
+            *d = min_dist[i];
+            *v = i;
+        }
+    }
+    return;
+}
+
+
+
+void update_minimum_distance(int s, int e, int mv, bool connected[VERTEX], int weights[VERTEX][VERTEX], int min_dist[VERTEX]){
+    for(int i=s; i<=e; i++){
+        if(!connected[i]){
+            if(weights[mv][i] < INF){
+                if(min_dist[mv] + weights[mv][i] < min_dist[i]){
+                    min_dist[i] = min_dist[mv] + weights[mv][i];
+                }
+            }
+        }
+    }
+    return;
 }
 
 void print_distance_from_zero(int *minimum_distance){
@@ -55,6 +78,101 @@ void print_distance_from_zero(int *minimum_distance){
     }
     return;
 }
+
+
+int *dijkstra_distance(int weights[VERTEX][VERTEX]){
+    /**
+     * Implement multi threaded Dijkstra.
+     * => use omp single -> whenever execution of a single thread among
+     * the team is required.
+     * => use omp critical -> Similar to critical section. Only one thread can
+     * execute at that particular time.
+     * => use omp barrier -> Collection point of all threads after execution
+     * among the team. Proceed only when all threads this statement.
+     * */
+    bool *connected;
+    int my_first, my_id, my_md, my_mv, mv_step, md, mv, nth, my_last;
+    int *minimum_distance;
+
+    connected = new bool[VERTEX];
+    // mark only the first node (itself) i.e = 0 as connected.
+    connected[0] = true;
+    // mark all other vertices are not connected.
+    for(int i=1; i<VERTEX; i++){
+        connected[i] = false;
+    }
+    // Initialise Minimum Distance to INF if there does not exist
+    // a edge else weight of the edge.
+    minimum_distance = new int[VERTEX];
+    for(int i=0; i<VERTEX; i++){
+        minimum_distance[i] = weights[0][i];
+    }
+
+#pragma omp parallel private (my_first, my_id, my_last, my_md, my_mv, mv_step) \
+    shared (connected, minimum_distance, weights, md, mv, nth)
+    {
+        my_id = omp_get_thread_num();
+        nth = omp_get_num_threads();
+        my_first = (my_id*VERTEX)/nth;
+        my_last = ((my_id+1)*VERTEX)/nth - 1;
+
+        // Single thread should execute the following block. First coming
+        // thread executes this.
+    #pragma omp single
+        {
+            cout<<"\n P"<<my_id<<": Parallel region begins with "<<nth<<" threads.\n";
+            cout<<"\n";
+        }
+        cout<<"\n P"<<my_id<<": First="<<my_first<<" Last="<<my_last<<"\n";
+
+        // attach one more node on each iteration.
+        for(mv_step = 1; mv_step < VERTEX; mv_step++) {
+            // set md and mv values. Only thread should do this.
+#pragma omp single
+            {
+                md = INF;
+                mv = -1;
+            }
+
+            // each thread finds the nearest unconnected node in its part of the graph.
+            find_nearest(my_first, my_last, minimum_distance, connected, &my_md, &my_mv);
+
+            // check the minimum distance and moves. Each thread should enter this block one at a time.
+#pragma omp critical
+            {
+                if (my_md < md) {
+                    md = my_md;
+                    mv = my_mv;
+                }
+            }
+            // checkpoint. Wait till all threads finish their execution.
+#pragma omp barrier
+            // if mv is -1 no unconnected node.
+            // Do not break from the parallel code. So execute and keep mv condition to each statement.
+#pragma omp single
+            {
+                if (mv != -1) {
+                    connected[mv] = true;
+                    cout << " P" << my_id << ": Connecting node " << mv << "\n";
+                }
+            }
+#pragma omp barrier
+            if (mv != -1) {
+                update_minimum_distance(my_first, my_last, mv, connected, weights, minimum_distance);
+            }
+#pragma omp barrier
+
+        }
+#pragma omp single
+        {
+            cout<<"\n P"<<my_id<<" : Exiting Parallel region\n";
+        }
+    }
+
+    delete [] connected;
+    return minimum_distance;
+}
+
 
 int main(){
     int i, j;

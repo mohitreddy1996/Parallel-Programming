@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/PI_Value_Calculation/compute_PI.cpp.o  -o Parallel -rdynamic 
+/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o  -o Parallel -rdynamic 

@@ -14,6 +14,8 @@
 #define VERTEX 6
 #define INF INT_MAX
 
+using namespace std;
+
 class dijkstra {
 
 };

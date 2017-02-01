@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Parallel.dir/PI_Value_Calculation/compute_PI.cpp.o"
+  "CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o"
   "Parallel.pdb"
   "Parallel"
 )

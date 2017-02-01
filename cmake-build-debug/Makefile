@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-PI_Value_Calculation/compute_PI.o: PI_Value_Calculation/compute_PI.cpp.o
+Dijkstra_Shortest_Path/dijkstra.o: Dijkstra_Shortest_Path/dijkstra.cpp.o
 
-.PHONY : PI_Value_Calculation/compute_PI.o
+.PHONY : Dijkstra_Shortest_Path/dijkstra.o
 
 # target to build an object file
-PI_Value_Calculation/compute_PI.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/PI_Value_Calculation/compute_PI.cpp.o
-.PHONY : PI_Value_Calculation/compute_PI.cpp.o
+Dijkstra_Shortest_Path/dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o
+.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.o
 
-PI_Value_Calculation/compute_PI.i: PI_Value_Calculation/compute_PI.cpp.i
+Dijkstra_Shortest_Path/dijkstra.i: Dijkstra_Shortest_Path/dijkstra.cpp.i
 
-.PHONY : PI_Value_Calculation/compute_PI.i
+.PHONY : Dijkstra_Shortest_Path/dijkstra.i
 
 # target to preprocess a source file
-PI_Value_Calculation/compute_PI.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/PI_Value_Calculation/compute_PI.cpp.i
-.PHONY : PI_Value_Calculation/compute_PI.cpp.i
+Dijkstra_Shortest_Path/dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.i
+.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.i
 
-PI_Value_Calculation/compute_PI.s: PI_Value_Calculation/compute_PI.cpp.s
+Dijkstra_Shortest_Path/dijkstra.s: Dijkstra_Shortest_Path/dijkstra.cpp.s
 
-.PHONY : PI_Value_Calculation/compute_PI.s
+.PHONY : Dijkstra_Shortest_Path/dijkstra.s
 
 # target to generate assembly for a file
-PI_Value_Calculation/compute_PI.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/PI_Value_Calculation/compute_PI.cpp.s
-.PHONY : PI_Value_Calculation/compute_PI.cpp.s
+Dijkstra_Shortest_Path/dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.s
+.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... PI_Value_Calculation/compute_PI.o"
-	@echo "... PI_Value_Calculation/compute_PI.i"
-	@echo "... PI_Value_Calculation/compute_PI.s"
+	@echo "... Dijkstra_Shortest_Path/dijkstra.o"
+	@echo "... Dijkstra_Shortest_Path/dijkstra.i"
+	@echo "... Dijkstra_Shortest_Path/dijkstra.s"
 .PHONY : help
 
 

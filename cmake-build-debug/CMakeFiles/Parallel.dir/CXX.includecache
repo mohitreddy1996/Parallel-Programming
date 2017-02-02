@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp
-dijkstra.h
-/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.h
+/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp
+Matrix_multiplication.h
+/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.h
 
-/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.h
+/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.h
 cstdlib
 -
 limits.h

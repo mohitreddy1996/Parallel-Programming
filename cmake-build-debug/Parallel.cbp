@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp">
+		<Unit filename="/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp">
 			<Option target="Parallel"/>
 		</Unit>
-		<Unit filename="/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.h">
+		<Unit filename="/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.h">
 			<Option target="Parallel"/>
 		</Unit>
 		<Unit filename="/home/mohit/Parallel-Programming-/CMakeLists.txt">

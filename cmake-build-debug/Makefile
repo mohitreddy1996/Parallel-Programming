@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-Dijkstra_Shortest_Path/dijkstra.o: Dijkstra_Shortest_Path/dijkstra.cpp.o
+Matrix_Multiplication/Matrix_multiplication.o: Matrix_Multiplication/Matrix_multiplication.cpp.o
 
-.PHONY : Dijkstra_Shortest_Path/dijkstra.o
+.PHONY : Matrix_Multiplication/Matrix_multiplication.o
 
 # target to build an object file
-Dijkstra_Shortest_Path/dijkstra.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o
-.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.o
+Matrix_Multiplication/Matrix_multiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o
+.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.o
 
-Dijkstra_Shortest_Path/dijkstra.i: Dijkstra_Shortest_Path/dijkstra.cpp.i
+Matrix_Multiplication/Matrix_multiplication.i: Matrix_Multiplication/Matrix_multiplication.cpp.i
 
-.PHONY : Dijkstra_Shortest_Path/dijkstra.i
+.PHONY : Matrix_Multiplication/Matrix_multiplication.i
 
 # target to preprocess a source file
-Dijkstra_Shortest_Path/dijkstra.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.i
-.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.i
+Matrix_Multiplication/Matrix_multiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.i
+.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.i
 
-Dijkstra_Shortest_Path/dijkstra.s: Dijkstra_Shortest_Path/dijkstra.cpp.s
+Matrix_Multiplication/Matrix_multiplication.s: Matrix_Multiplication/Matrix_multiplication.cpp.s
 
-.PHONY : Dijkstra_Shortest_Path/dijkstra.s
+.PHONY : Matrix_Multiplication/Matrix_multiplication.s
 
 # target to generate assembly for a file
-Dijkstra_Shortest_Path/dijkstra.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.s
-.PHONY : Dijkstra_Shortest_Path/dijkstra.cpp.s
+Matrix_Multiplication/Matrix_multiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.s
+.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... Dijkstra_Shortest_Path/dijkstra.o"
-	@echo "... Dijkstra_Shortest_Path/dijkstra.i"
-	@echo "... Dijkstra_Shortest_Path/dijkstra.s"
+	@echo "... Matrix_Multiplication/Matrix_multiplication.o"
+	@echo "... Matrix_Multiplication/Matrix_multiplication.i"
+	@echo "... Matrix_Multiplication/Matrix_multiplication.s"
 .PHONY : help
 
 

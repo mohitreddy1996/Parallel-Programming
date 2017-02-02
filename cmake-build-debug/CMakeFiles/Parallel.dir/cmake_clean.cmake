@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o"
+  "CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o"
   "Parallel.pdb"
   "Parallel"
 )

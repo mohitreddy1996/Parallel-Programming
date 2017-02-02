@@ -57,38 +57,38 @@ include CMakeFiles/Parallel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Parallel.dir/flags.make
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o: CMakeFiles/Parallel.dir/flags.make
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o: ../Dijkstra_Shortest_Path/dijkstra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o -c /home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o: CMakeFiles/Parallel.dir/flags.make
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o: ../Matrix_Multiplication/Matrix_multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o -c /home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp > CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.i
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp > CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.i
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp -o CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.s
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp -o CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.s
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.requires:
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.requires:
 
-.PHONY : CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.requires
+.PHONY : CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.requires
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.provides: CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.provides.build
-.PHONY : CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.provides
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.provides: CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.provides.build
+.PHONY : CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.provides
 
-CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.provides.build: CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o
+CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.provides.build: CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o
 
 
 # Object files for target Parallel
 Parallel_OBJECTS = \
-"CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o"
+"CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o"
 
 # External object files for target Parallel
 Parallel_EXTERNAL_OBJECTS =
 
-Parallel: CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o
+Parallel: CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o
 Parallel: CMakeFiles/Parallel.dir/build.make
 Parallel: CMakeFiles/Parallel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Parallel"
@@ -99,7 +99,7 @@ CMakeFiles/Parallel.dir/build: Parallel
 
 .PHONY : CMakeFiles/Parallel.dir/build
 
-CMakeFiles/Parallel.dir/requires: CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o.requires
+CMakeFiles/Parallel.dir/requires: CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o.requires
 
 .PHONY : CMakeFiles/Parallel.dir/requires
 

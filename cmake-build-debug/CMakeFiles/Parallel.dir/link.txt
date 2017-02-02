@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o  -o Parallel -rdynamic 
+/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o  -o Parallel -rdynamic 

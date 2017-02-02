@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mohit/Parallel-Programming-/Dijkstra_Shortest_Path/dijkstra.cpp" "/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/Parallel.dir/Dijkstra_Shortest_Path/dijkstra.cpp.o"
+  "/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp" "/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

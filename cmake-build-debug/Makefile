@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-Matrix_Multiplication/Matrix_multiplication.o: Matrix_Multiplication/Matrix_multiplication.cpp.o
+Prime_Numbers/Prime_Numbers.o: Prime_Numbers/Prime_Numbers.cpp.o
 
-.PHONY : Matrix_Multiplication/Matrix_multiplication.o
+.PHONY : Prime_Numbers/Prime_Numbers.o
 
 # target to build an object file
-Matrix_Multiplication/Matrix_multiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o
-.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.o
+Prime_Numbers/Prime_Numbers.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.o
+.PHONY : Prime_Numbers/Prime_Numbers.cpp.o
 
-Matrix_Multiplication/Matrix_multiplication.i: Matrix_Multiplication/Matrix_multiplication.cpp.i
+Prime_Numbers/Prime_Numbers.i: Prime_Numbers/Prime_Numbers.cpp.i
 
-.PHONY : Matrix_Multiplication/Matrix_multiplication.i
+.PHONY : Prime_Numbers/Prime_Numbers.i
 
 # target to preprocess a source file
-Matrix_Multiplication/Matrix_multiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.i
-.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.i
+Prime_Numbers/Prime_Numbers.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.i
+.PHONY : Prime_Numbers/Prime_Numbers.cpp.i
 
-Matrix_Multiplication/Matrix_multiplication.s: Matrix_Multiplication/Matrix_multiplication.cpp.s
+Prime_Numbers/Prime_Numbers.s: Prime_Numbers/Prime_Numbers.cpp.s
 
-.PHONY : Matrix_Multiplication/Matrix_multiplication.s
+.PHONY : Prime_Numbers/Prime_Numbers.s
 
 # target to generate assembly for a file
-Matrix_Multiplication/Matrix_multiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.s
-.PHONY : Matrix_Multiplication/Matrix_multiplication.cpp.s
+Prime_Numbers/Prime_Numbers.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.s
+.PHONY : Prime_Numbers/Prime_Numbers.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... Matrix_Multiplication/Matrix_multiplication.o"
-	@echo "... Matrix_Multiplication/Matrix_multiplication.i"
-	@echo "... Matrix_Multiplication/Matrix_multiplication.s"
+	@echo "... Prime_Numbers/Prime_Numbers.o"
+	@echo "... Prime_Numbers/Prime_Numbers.i"
+	@echo "... Prime_Numbers/Prime_Numbers.s"
 .PHONY : help
 
 

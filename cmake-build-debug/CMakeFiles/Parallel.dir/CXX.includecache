@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.cpp
-Matrix_multiplication.h
-/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.h
+/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.cpp
+Prime_Numbers.h
+/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.h
 
-/home/mohit/Parallel-Programming-/Matrix_Multiplication/Matrix_multiplication.h
+/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.h
 cstdlib
 -
 limits.h

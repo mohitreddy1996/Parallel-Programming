@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o  -o Parallel -rdynamic 
+/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.o  -o Parallel -rdynamic 

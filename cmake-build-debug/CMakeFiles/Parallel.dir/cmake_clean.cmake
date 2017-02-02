@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Parallel.dir/Matrix_Multiplication/Matrix_multiplication.cpp.o"
+  "CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.o"
   "Parallel.pdb"
   "Parallel"
 )

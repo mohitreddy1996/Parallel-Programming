@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.cpp" "/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.o"
+  "/home/mohit/Parallel-Programming-/MPI_Directory/Hello World/hello_world.cpp" "/home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

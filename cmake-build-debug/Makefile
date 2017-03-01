@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-Prime_Numbers/Prime_Numbers.o: Prime_Numbers/Prime_Numbers.cpp.o
+MPI_Directory/Hello_World/hello_world.o: MPI_Directory/Hello_World/hello_world.cpp.o
 
-.PHONY : Prime_Numbers/Prime_Numbers.o
+.PHONY : MPI_Directory/Hello_World/hello_world.o
 
 # target to build an object file
-Prime_Numbers/Prime_Numbers.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.o
-.PHONY : Prime_Numbers/Prime_Numbers.cpp.o
+MPI_Directory/Hello_World/hello_world.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.o
+.PHONY : MPI_Directory/Hello_World/hello_world.cpp.o
 
-Prime_Numbers/Prime_Numbers.i: Prime_Numbers/Prime_Numbers.cpp.i
+MPI_Directory/Hello_World/hello_world.i: MPI_Directory/Hello_World/hello_world.cpp.i
 
-.PHONY : Prime_Numbers/Prime_Numbers.i
+.PHONY : MPI_Directory/Hello_World/hello_world.i
 
 # target to preprocess a source file
-Prime_Numbers/Prime_Numbers.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.i
-.PHONY : Prime_Numbers/Prime_Numbers.cpp.i
+MPI_Directory/Hello_World/hello_world.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.i
+.PHONY : MPI_Directory/Hello_World/hello_world.cpp.i
 
-Prime_Numbers/Prime_Numbers.s: Prime_Numbers/Prime_Numbers.cpp.s
+MPI_Directory/Hello_World/hello_world.s: MPI_Directory/Hello_World/hello_world.cpp.s
 
-.PHONY : Prime_Numbers/Prime_Numbers.s
+.PHONY : MPI_Directory/Hello_World/hello_world.s
 
 # target to generate assembly for a file
-Prime_Numbers/Prime_Numbers.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Prime_Numbers/Prime_Numbers.cpp.s
-.PHONY : Prime_Numbers/Prime_Numbers.cpp.s
+MPI_Directory/Hello_World/hello_world.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.s
+.PHONY : MPI_Directory/Hello_World/hello_world.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... Prime_Numbers/Prime_Numbers.o"
-	@echo "... Prime_Numbers/Prime_Numbers.i"
-	@echo "... Prime_Numbers/Prime_Numbers.s"
+	@echo "... MPI_Directory/Hello_World/hello_world.o"
+	@echo "... MPI_Directory/Hello_World/hello_world.i"
+	@echo "... MPI_Directory/Hello_World/hello_world.s"
 .PHONY : help
 
 

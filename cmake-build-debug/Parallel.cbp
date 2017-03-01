@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.cpp">
+		<Unit filename="/home/mohit/Parallel-Programming-/MPI_Directory/Hello World/hello_world.cpp">
 			<Option target="Parallel"/>
 		</Unit>
-		<Unit filename="/home/mohit/Parallel-Programming-/Prime_Numbers/Prime_Numbers.h">
+		<Unit filename="/home/mohit/Parallel-Programming-/MPI_Directory/Hello World/hello_world.h">
 			<Option target="Parallel"/>
 		</Unit>
 		<Unit filename="/home/mohit/Parallel-Programming-/CMakeLists.txt">

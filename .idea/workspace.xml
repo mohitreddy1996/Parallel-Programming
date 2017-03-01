@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4d531f-befa-44f0-9f27-0320e0c293a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MPI_Directory/Send Receive/PingPong.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MPI_Directory/Send Receive/Ring.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -60,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PingPong.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PingPong.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MPI_Directory/Send Receive/PingPong.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="230">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="e#38#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ring.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MPI_Directory/Send Receive/Ring.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,16 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matrix_multiplication.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matrix_Multiplication/Matrix_multiplication.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="50" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -149,6 +151,7 @@
         <option value="$PROJECT_DIR$/MPI_Directory/Send Receive/SendReceive.h" />
         <option value="$PROJECT_DIR$/MPI_Directory/Send Receive/SendReceive.cpp" />
         <option value="$PROJECT_DIR$/MPI_Directory/Send Receive/PingPong.cpp" />
+        <option value="$PROJECT_DIR$/MPI_Directory/Send Receive/Ring.cpp" />
       </list>
     </option>
   </component>
@@ -509,12 +512,12 @@
       <workItem from="1486148665549" duration="6000" />
       <workItem from="1486305161808" duration="7000" />
       <workItem from="1488296027868" duration="1389000" />
-      <workItem from="1488356833850" duration="5045000" />
+      <workItem from="1488356833850" duration="8265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22078000" />
+    <option name="totallyTimeSpent" value="25298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="21" width="662" height="747" extended-state="4" />
@@ -940,10 +943,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MPI_Directory/Send Receive/PingPong.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="e#38#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPI_Directory/Send Receive/Ring.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MPI_Directory/Send Receive/Ring.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

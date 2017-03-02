@@ -15,6 +15,9 @@
 
 #include <mpi.h>
 #include <stdio.h>
+#include "random"
+#include <time.h>
+#include <stdlib.h>
 
 int main(){
 

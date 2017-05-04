@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/mohit/Parallel-Programming-/MPI_Directory/hello_world.cpp
-hello_world.h
-/home/mohit/Parallel-Programming-/MPI_Directory/hello_world.h
-
-/home/mohit/Parallel-Programming-/MPI_Directory/hello_world.h
-mpi.h
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp
+cstdlib
 -
+cstring
+-
+basic1.h
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.h
+
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.h
 stdio.h
 -
-iostream
+unistd.h
+-
+sys/types.h
 -
 

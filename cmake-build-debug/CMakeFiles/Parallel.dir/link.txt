@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.o  -o Parallel -rdynamic 
+/usr/bin/c++    -std=c++11 -fopenmp -g   CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o  -o Parallel -rdynamic 

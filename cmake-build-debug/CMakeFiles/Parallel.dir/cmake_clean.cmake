@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.o"
+  "CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o"
   "Parallel.pdb"
   "Parallel"
 )

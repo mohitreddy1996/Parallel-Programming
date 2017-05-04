@@ -48,10 +48,10 @@ RM = /home/mohit/clion-2016.3.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mohit/Parallel-Programming-
+CMAKE_SOURCE_DIR = /home/mohit/Parallel-Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mohit/Parallel-Programming-/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mohit/Parallel-Programming/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles /home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles /home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohit/Parallel-Programming-/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-MPI_Directory/Hello_World/hello_world.o: MPI_Directory/Hello_World/hello_world.cpp.o
+Unix-Systems_Practice/basic1.o: Unix-Systems_Practice/basic1.cpp.o
 
-.PHONY : MPI_Directory/Hello_World/hello_world.o
+.PHONY : Unix-Systems_Practice/basic1.o
 
 # target to build an object file
-MPI_Directory/Hello_World/hello_world.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.o
-.PHONY : MPI_Directory/Hello_World/hello_world.cpp.o
+Unix-Systems_Practice/basic1.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o
+.PHONY : Unix-Systems_Practice/basic1.cpp.o
 
-MPI_Directory/Hello_World/hello_world.i: MPI_Directory/Hello_World/hello_world.cpp.i
+Unix-Systems_Practice/basic1.i: Unix-Systems_Practice/basic1.cpp.i
 
-.PHONY : MPI_Directory/Hello_World/hello_world.i
+.PHONY : Unix-Systems_Practice/basic1.i
 
 # target to preprocess a source file
-MPI_Directory/Hello_World/hello_world.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.i
-.PHONY : MPI_Directory/Hello_World/hello_world.cpp.i
+Unix-Systems_Practice/basic1.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.i
+.PHONY : Unix-Systems_Practice/basic1.cpp.i
 
-MPI_Directory/Hello_World/hello_world.s: MPI_Directory/Hello_World/hello_world.cpp.s
+Unix-Systems_Practice/basic1.s: Unix-Systems_Practice/basic1.cpp.s
 
-.PHONY : MPI_Directory/Hello_World/hello_world.s
+.PHONY : Unix-Systems_Practice/basic1.s
 
 # target to generate assembly for a file
-MPI_Directory/Hello_World/hello_world.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/MPI_Directory/Hello_World/hello_world.cpp.s
-.PHONY : MPI_Directory/Hello_World/hello_world.cpp.s
+Unix-Systems_Practice/basic1.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.s
+.PHONY : Unix-Systems_Practice/basic1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... MPI_Directory/Hello_World/hello_world.o"
-	@echo "... MPI_Directory/Hello_World/hello_world.i"
-	@echo "... MPI_Directory/Hello_World/hello_world.s"
+	@echo "... Unix-Systems_Practice/basic1.o"
+	@echo "... Unix-Systems_Practice/basic1.i"
+	@echo "... Unix-Systems_Practice/basic1.s"
 .PHONY : help
 
 

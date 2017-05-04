@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp" "/home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o"
+  "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp" "/home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

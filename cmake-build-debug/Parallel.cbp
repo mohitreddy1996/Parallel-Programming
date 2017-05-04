@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp">
+		<Unit filename="/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp">
 			<Option target="Parallel"/>
 		</Unit>
-		<Unit filename="/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.h">
+		<Unit filename="/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.h">
 			<Option target="Parallel"/>
 		</Unit>
 		<Unit filename="/home/mohit/Parallel-Programming/CMakeLists.txt">

@@ -57,38 +57,38 @@ include CMakeFiles/Parallel.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Parallel.dir/flags.make
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o: CMakeFiles/Parallel.dir/flags.make
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o: ../Unix-Systems\ Practice/basic1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o -c "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp"
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o: CMakeFiles/Parallel.dir/flags.make
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o: ../Unix-Systems\ Practice/basic2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o -c "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp"
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp" > CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.i
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp" > CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.i
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp" -o CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.s
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp" -o CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.s
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.requires:
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.requires:
 
-.PHONY : CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.requires
+.PHONY : CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.requires
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.provides: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.provides.build
-.PHONY : CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.provides
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.provides: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.provides.build
+.PHONY : CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.provides
 
-CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.provides.build: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o
+CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.provides.build: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o
 
 
 # Object files for target Parallel
 Parallel_OBJECTS = \
-"CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o"
+"CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o"
 
 # External object files for target Parallel
 Parallel_EXTERNAL_OBJECTS =
 
-Parallel: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o
+Parallel: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o
 Parallel: CMakeFiles/Parallel.dir/build.make
 Parallel: CMakeFiles/Parallel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mohit/Parallel-Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Parallel"
@@ -99,7 +99,7 @@ CMakeFiles/Parallel.dir/build: Parallel
 
 .PHONY : CMakeFiles/Parallel.dir/build
 
-CMakeFiles/Parallel.dir/requires: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o.requires
+CMakeFiles/Parallel.dir/requires: CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o.requires
 
 .PHONY : CMakeFiles/Parallel.dir/requires
 

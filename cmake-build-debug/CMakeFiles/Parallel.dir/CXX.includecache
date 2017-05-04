@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.cpp
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.cpp
+cstdio
+-
 cstdlib
 -
-cstring
--
-basic1.h
-/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.h
+basic2.h
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.h
 
-/home/mohit/Parallel-Programming/Unix-Systems Practice/basic1.h
-stdio.h
--
-unistd.h
--
-sys/types.h
--
+/home/mohit/Parallel-Programming/Unix-Systems Practice/basic2.h
 

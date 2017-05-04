@@ -3,7 +3,7 @@ project(Parallel)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES "Unix-Systems Practice/basic1.cpp")
+set(SOURCE_FILES "Unix-Systems Practice/basic2.cpp")
 SET(GCC_COVERAGE_COMPILE_FLAGS "-fopenmp")
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fopenmp")
 add_executable(Parallel ${SOURCE_FILES})

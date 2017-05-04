@@ -123,32 +123,32 @@ Parallel/fast:
 	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/build
 .PHONY : Parallel/fast
 
-Unix-Systems_Practice/basic1.o: Unix-Systems_Practice/basic1.cpp.o
+Unix-Systems_Practice/basic2.o: Unix-Systems_Practice/basic2.cpp.o
 
-.PHONY : Unix-Systems_Practice/basic1.o
+.PHONY : Unix-Systems_Practice/basic2.o
 
 # target to build an object file
-Unix-Systems_Practice/basic1.cpp.o:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.o
-.PHONY : Unix-Systems_Practice/basic1.cpp.o
+Unix-Systems_Practice/basic2.cpp.o:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.o
+.PHONY : Unix-Systems_Practice/basic2.cpp.o
 
-Unix-Systems_Practice/basic1.i: Unix-Systems_Practice/basic1.cpp.i
+Unix-Systems_Practice/basic2.i: Unix-Systems_Practice/basic2.cpp.i
 
-.PHONY : Unix-Systems_Practice/basic1.i
+.PHONY : Unix-Systems_Practice/basic2.i
 
 # target to preprocess a source file
-Unix-Systems_Practice/basic1.cpp.i:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.i
-.PHONY : Unix-Systems_Practice/basic1.cpp.i
+Unix-Systems_Practice/basic2.cpp.i:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.i
+.PHONY : Unix-Systems_Practice/basic2.cpp.i
 
-Unix-Systems_Practice/basic1.s: Unix-Systems_Practice/basic1.cpp.s
+Unix-Systems_Practice/basic2.s: Unix-Systems_Practice/basic2.cpp.s
 
-.PHONY : Unix-Systems_Practice/basic1.s
+.PHONY : Unix-Systems_Practice/basic2.s
 
 # target to generate assembly for a file
-Unix-Systems_Practice/basic1.cpp.s:
-	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic1.cpp.s
-.PHONY : Unix-Systems_Practice/basic1.cpp.s
+Unix-Systems_Practice/basic2.cpp.s:
+	$(MAKE) -f CMakeFiles/Parallel.dir/build.make CMakeFiles/Parallel.dir/Unix-Systems_Practice/basic2.cpp.s
+.PHONY : Unix-Systems_Practice/basic2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Parallel"
-	@echo "... Unix-Systems_Practice/basic1.o"
-	@echo "... Unix-Systems_Practice/basic1.i"
-	@echo "... Unix-Systems_Practice/basic1.s"
+	@echo "... Unix-Systems_Practice/basic2.o"
+	@echo "... Unix-Systems_Practice/basic2.i"
+	@echo "... Unix-Systems_Practice/basic2.s"
 .PHONY : help
 
 
